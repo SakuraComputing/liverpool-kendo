@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the login should render correctly 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Kendo Club
+    </h1>
+    <p>
+      Kendo
+    </p>
+    <button
+      className="button"
+    >
+      Login with Google
+    </button>
+  </div>
+</div>
+`;

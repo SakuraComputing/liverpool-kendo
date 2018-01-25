@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Maine Menu should render the form correctly 1`] = `
+<Menu
+  bodyClassName=""
+  burgerBarClassName=""
+  burgerButtonClassName=""
+  className="main-menu"
+  crossButtonClassName=""
+  crossClassName=""
+  id=""
+  itemListClassName=""
+  menuClassName=""
+  morphShapeClassName=""
+  noOverlay={false}
+  onStateChange={[Function]}
+  outerContainerId=""
+  overlayClassName=""
+  pageWrapId=""
+  styles={Object {}}
+  width="50px"
+>
+  <a
+    className="menu-item"
+    href="/"
+    id="home"
+  >
+    Home
+  </a>
+  <a
+    className="menu-item"
+    href="/about"
+    id="about"
+    to="/about"
+  >
+    About
+  </a>
+  <a
+    className="menu-item"
+    href="/contact"
+    id="contact"
+  >
+    Contact
+  </a>
+  <a
+    className="menu-item--small"
+    href=""
+    onClick={[Function]}
+  >
+    Settings
+  </a>
+</Menu>
+`;
