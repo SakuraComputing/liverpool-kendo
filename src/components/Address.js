@@ -15,11 +15,10 @@ export const Address = () => {
             <li>Wednesdays 7.30pm to 9.30pm</li>
 
             <li>Contact: 07752 969106</li>
-            <p></p>
 
             <div style={{width: '100%', height: '400px'}}>
                 <SimpleMap/>
-            </div>,
+            </div>
 
 
         </div>
