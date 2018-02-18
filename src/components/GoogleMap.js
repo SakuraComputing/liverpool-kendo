@@ -4,9 +4,11 @@ import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+const LAT = 53.3701668, LNG = -2.9195765;
+
 export class SimpleMap extends React.Component {
     static defaultProps = {
-        center: {lat: 53.3701668, lng: -2.9195765},
+        center: {lat: LAT, lng: LNG},
         zoom: 15
     };
 
@@ -16,10 +18,11 @@ export class SimpleMap extends React.Component {
                 bootstrapURLKeys={{ key: 'AIzaSyADAT64SMWOP7ee4cEOgW8tMYNL673MeDQ' }}
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
+
             >
                 <AnyReactComponent
-                    lat={53.3701668}
-                    lng={-2.9195765}
+                    lat={LAT}
+                    lng={LNG}
                     text={'Liverpool Kendo Club'}
                 />
             </GoogleMapReact>
