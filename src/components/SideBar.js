@@ -1,18 +1,22 @@
 import React from 'react';
-import { push as Menu } from 'react-burger-menu'
+import { connect } from 'react-redux';
+import { push as Menu } from 'react-burger-menu';
 import { link } from 'react-router';
+import { Link } from 'react-router-dom';
+import {startLogout} from "../actions/auth";
 
-class Sidebar extends React.Component {
+export const Sidebar = ({ startLogout }) => (
 
-    render () {
-        return (
-            <Menu className="bm-menu"  noOverlay>
-                <a id="home" className="bm-item-list" href="/">Home</a>
-                <a id="what" className="bm-item-list" href="/">What is Kendo</a>
-                <a id="photo" className="bm-item-list" href="/">Photo's</a>
-                <a id="logout" className="bm-item-list" href="/">Log Out</a>
-            </Menu>
-        );
-    }
-}
-export default Sidebar;
+        <Menu className="bm-menu"  noOverlay>
+            <Link to="/home" id="home" className="bm-item-list" href="/">Home</Link>
+            <Link to="/about" id="what" className="bm-item-list" href="/">What is Kendo</Link>
+            <a id="photo" className="bm-item-list" href="/">Photo's</a>
+            <a onClick={startLogout} className="bm-item-list" href="/">Log Out</a>
+        </Menu>
+);
+
+const mapDispatchToProps = (dispatch) => ({
+    startLogout: () => dispatch(startLogout())
+});
+
+export default connect(undefined, mapDispatchToProps)(Sidebar);
