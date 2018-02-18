@@ -1,21 +1,16 @@
 import React from 'react';
-import { slide as Menu } from 'react-burger-menu'
+import { push as Menu } from 'react-burger-menu'
 import { link } from 'react-router';
 
 class Sidebar extends React.Component {
 
-    showSettings (event) {
-        event.preventDefault();
-        alert('show settings');
-    }
-
     render () {
         return (
-            <Menu className="main-menu bm-overlay" width={ '50px' }>
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="about" to="/about" className="menu-item" href="/about">About</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a>
-                <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+            <Menu className="bm-menu"  noOverlay>
+                <a id="home" className="bm-item-list" href="/">Home</a>
+                <a id="what" className="bm-item-list" href="/">What is Kendo</a>
+                <a id="photo" className="bm-item-list" href="/">Photo's</a>
+                <a id="logout" className="bm-item-list" href="/">Log Out</a>
             </Menu>
         );
     }

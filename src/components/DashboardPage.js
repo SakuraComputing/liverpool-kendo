@@ -1,10 +1,11 @@
 import React from 'react';
-import MainMenu from './SideBar';
+import SideBar from './SideBar';
 import Address from './Address';
 
 const DashboardPage = () =>(
     <div>
-        <Address/>
+        <SideBar />
+        <Address />
     </div>
 );
 export default DashboardPage;
