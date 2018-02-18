@@ -10,7 +10,7 @@ export const Sidebar = ({ startLogout }) => (
         <Menu className="bm-menu"  noOverlay>
             <Link to="/dashboard" id="home" className="bm-item-list" href="/">Home</Link>
             <Link to="/about" id="what" className="bm-item-list" href="/">What is Kendo</Link>
-            <a id="photo" className="bm-item-list" href="/">Photo's</a>
+            <Link to="/photo" id="photo" className="bm-item-list" href="/photo">Photo's</Link>
             <Link to="/kendolink" id="kendolink" className="bm-item-list">Kendo Links</Link>
             <a onClick={startLogout} className="bm-item-list" href="/">Log Out</a>
         </Menu>
