@@ -26,6 +26,7 @@ const renderApp = ()=> {
   }
 };
 
+// Add deployment
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
