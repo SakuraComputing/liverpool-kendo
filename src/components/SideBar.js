@@ -8,7 +8,7 @@ import {startLogout} from "../actions/auth";
 export const Sidebar = ({ startLogout }) => (
 
         <Menu className="bm-menu"  noOverlay>
-            <Link to="/home" id="home" className="bm-item-list" href="/">Home</Link>
+            <Link to="/dashboard" id="home" className="bm-item-list" href="/">Home</Link>
             <Link to="/about" id="what" className="bm-item-list" href="/">What is Kendo</Link>
             <a id="photo" className="bm-item-list" href="/">Photo's</a>
             <a onClick={startLogout} className="bm-item-list" href="/">Log Out</a>
