@@ -1,10 +1,9 @@
 import React from 'react';
-import MainMenu from './MainMenu';
+import MainMenu from './SideBar';
 import Address from './Address';
 
 const DashboardPage = () =>(
     <div>
-        <MainMenu/>
         <Address/>
     </div>
 );
