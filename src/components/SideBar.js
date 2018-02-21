@@ -12,6 +12,7 @@ export const Sidebar = ({ startLogout }) => (
             <Link to="/about" id="what" className="bm-item-list" href="/">What is Kendo</Link>
             <Link to="/photo" id="photo" className="bm-item-list" href="/photo">Photo's</Link>
             <Link to="/kendolink" id="kendolink" className="bm-item-list">Kendo Links</Link>
+            <Link to="/video" id="video" className="bm-item-list">Videos</Link>
             <a onClick={startLogout} className="bm-item-list" href="/">Log Out</a>
         </Menu>
 );

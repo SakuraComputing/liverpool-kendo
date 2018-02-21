@@ -9,6 +9,7 @@ import PublicRoute from './PublicRoute';
 import AboutPage from '../components/About';
 import LinkPage from '../components/Link';
 import PhotoPage from '../components/PhotoPage';
+import Video from '../components/Video';
 
 export const history = createHistory();
 
@@ -21,6 +22,7 @@ const AppRouter = () => (
                 <PrivateRoute path="/about" component={AboutPage}/>
                 <PrivateRoute path="/kendolink" component={LinkPage} />
                 <PrivateRoute path="/photo" component={PhotoPage} />
+                <PrivateRoute path="/video" component={Video}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>
