@@ -13,9 +13,9 @@ export const Address = () => {
             <div>L17 6BD</div>
 
             <h3>Practice Session Time</h3>
-            <li>Wednesdays 7.30pm to 9.30pm</li>
+            <li>Wednesdays 7.00pm to 9.30pm</li>
 
-            <li>Contact: 07752 969106</li>
+            <li>Contact: 07515 546732</li>
 
             <p></p>
             <div style={{width: '100%', height: '400px'}}>
