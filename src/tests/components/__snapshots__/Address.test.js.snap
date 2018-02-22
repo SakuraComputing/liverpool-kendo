@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Address page 1`] = `
+<div
+  className="content-container"
+>
+  <h3>
+     Where To Find Us
+  </h3>
+  <div>
+    The Egg Dance Studio
+  </div>
+  <div>
+    IM Marsh Campus
+  </div>
+  <div>
+    Mossley Hill Road
+  </div>
+  <div>
+    Aigburth
+  </div>
+  <div>
+    Garston
+  </div>
+  <div>
+    L17 6BD
+  </div>
+  <h3>
+    Practice Session Time
+  </h3>
+  <li>
+    Wednesdays 7.00pm to 9.30pm
+  </li>
+  <li>
+    Contact: 07515 546732
+  </li>
+  <p />
+  <div
+    style={
+      Object {
+        "height": "400px",
+        "width": "100%",
+      }
+    }
+  >
+    <SimpleMap
+      center={
+        Object {
+          "lat": 53.3701668,
+          "lng": -2.9195765,
+        }
+      }
+      zoom={15}
+    />
+  </div>
+  <p>
+    * Beginners always welcome but we ask you join the British Kendo Association after an introductory period.
+  </p>
+</div>
+`;
