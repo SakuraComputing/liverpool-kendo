@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Side Bar should render the side bar correctly 1`] = `
+<Menu
+  bodyClassName=""
+  burgerBarClassName=""
+  burgerButtonClassName=""
+  className="bm-menu"
+  crossButtonClassName=""
+  crossClassName=""
+  id=""
+  itemListClassName=""
+  menuClassName=""
+  morphShapeClassName=""
+  noOverlay={true}
+  onStateChange={[Function]}
+  outerContainerId=""
+  overlayClassName=""
+  pageWrapId=""
+  styles={Object {}}
+  width={300}
+>
+  <Link
+    className="bm-item-list"
+    href="/"
+    id="home"
+    replace={false}
+    to="/dashboard"
+  >
+    Home
+  </Link>
+  <Link
+    className="bm-item-list"
+    href="/"
+    id="what"
+    replace={false}
+    to="/about"
+  >
+    What is Kendo
+  </Link>
+  <Link
+    className="bm-item-list"
+    href="/photo"
+    id="photo"
+    replace={false}
+    to="/photo"
+  >
+    Photo's
+  </Link>
+  <Link
+    className="bm-item-list"
+    id="kendolink"
+    replace={false}
+    to="/kendolink"
+  >
+    Kendo Links
+  </Link>
+  <Link
+    className="bm-item-list"
+    id="video"
+    replace={false}
+    to="/video"
+  >
+    Videos
+  </Link>
+  <a
+    className="bm-item-list"
+    href="/"
+    onClick={[Function]}
+  >
+    Log Out
+  </a>
+</Menu>
+`;
