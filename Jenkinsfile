@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Unit Tests') {
             steps {
-                sh 'yarn test'
+                sh 'yarn test -u'
             }
         }
     }
