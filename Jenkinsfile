@@ -20,8 +20,10 @@ pipeline {
             }
         }
         stage('Deliver') {
-            input message: 'Do you wish to deploy to heroku? (Click "Proceed" to continue)'
-            sh 'git push heroku master'
+            steps {
+                input message: 'Do you wish to deploy to heroku? (Click "Proceed" to continue)'
+                sh 'git push heroku master'
+            }
         }
     }
 }
