@@ -7,18 +7,18 @@ export const LoginPage = ({startLogin}) => (
         <div className="box-layout__box">
             <h1 className="box-layout__title">Liverpool Kendo Club</h1>
             <p>Kendo</p>
-            <button className="button" onClick={startLogin}>
+            <button className="button button--with-icon" onClick={() => startLogin('google')}><i className="icon-prepend fa fa-google"/>
                 Login with Google
             </button>
-            <div>
+            <button className="button button--with-icon" style={{"background":"#4267b2"}} onClick={() => startLogin('facebook')}><i className="icon-prepend fa fa-facebook-f"/>
                 Login with Facebook
-            </div>
+            </button>
         </div>
     </div>
 );
 
 const mapDispatchToProps = (dispatch) => ({
-   startLogin: () => dispatch(startLogin())
+   startLogin: (provider) => dispatch(startLogin(provider))
 });
 
 export default connect(undefined, mapDispatchToProps)(LoginPage);

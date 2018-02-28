@@ -4,7 +4,7 @@ import toJSON from 'enzyme-to-json';
 import { Header } from '../../components/Header';
 
 test('should render header correctly',() => {
-    const wrapper = shallow(<Header />);
+    const wrapper = shallow(<Header startLogout={() => {}}/>);
     expect(toJSON(wrapper)).toMatchSnapshot();
 });
 

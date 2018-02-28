@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`the login should render correctly 1`] = `
+exports[`the login page should render correctly 1`] = `
 <div
   className="box-layout"
 >
@@ -16,13 +16,28 @@ exports[`the login should render correctly 1`] = `
       Kendo
     </p>
     <button
-      className="button"
+      className="button button--with-icon"
+      onClick={[Function]}
     >
+      <i
+        className="icon-prepend fa fa-google"
+      />
       Login with Google
     </button>
-    <div>
+    <button
+      className="button button--with-icon"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#4267b2",
+        }
+      }
+    >
+      <i
+        className="icon-prepend fa fa-facebook-f"
+      />
       Login with Facebook
-    </div>
+    </button>
   </div>
 </div>
 `;
