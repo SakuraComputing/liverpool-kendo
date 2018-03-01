@@ -6,7 +6,16 @@ Check out the url below for it's live deployment
 
 https://liverpool-kendo.club.herokuapp.com
 
+## Run Jenkins from a server
+
+Choose the Jenkinsfilename_server rename this to Jenkinsfile and push and this will start a build
+
+
 ## Run Jenkins in docker
+
+Choose the Jenkinsfilename_docker rename this to Jenkinsfile and push this to the repo
+
+## Or
 
 `docker run \
    --rm \
