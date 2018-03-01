@@ -33,5 +33,5 @@ Choose the Jenkinsfilename_docker rename this to Jenkinsfile and push this to th
    
 ## Deployment
 
-The application is deployed to 
+The application is deployed to Heroku
 
