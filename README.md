@@ -29,4 +29,7 @@ Choose the Jenkinsfilename_docker rename this to Jenkinsfile and push this to th
    Pull down the image. Connect to Jenkins via port 8090, add the administrator password and restart.
    
    Create a new pipeline, switch to Blue Ocean and the already configured Jenkinsfile will be run.
+   
+   
+## Deployment
 
