@@ -19,6 +19,11 @@ exports[`should render header correctly 1`] = `
           Liverpool Kendo Club
         </h1>
       </Link>
+      <img
+        alt="lkc_logo"
+        className="header__icon"
+        src="/images/lkc_logo.jpg"
+      />
     </div>
   </div>
   <Connect(Sidebar) />
