@@ -17,8 +17,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                input message: 'Do you wish to deploy to heroku? (Click "Proceed" to continue)'
-                sh 'deploy'
+                sh 'git push heroku master'
             }
         }
     }
