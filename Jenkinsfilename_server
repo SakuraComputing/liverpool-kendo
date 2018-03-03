@@ -18,12 +18,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 input message: 'Do you wish to deploy to heroku? (Click "Proceed" to continue)'
-                bash '''#!/bin/bash
-                                 echo "hello world"
-                        dir ('/Users/Shared/Jenkins/Home/workspace/liverpool-kendo') {
-                            sh('./deploy.sh')
-                        }
-                        '''
+                sh 'git push heroku master'
             }
         }
     }
