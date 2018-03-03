@@ -19,7 +19,7 @@ pipeline {
             steps {
                 input message: 'Do you wish to deploy to heroku? (Click "Proceed" to continue)'
                 dir ('/Users/Shared/Jenkins/Home/workspace/liverpool-kendo') {
-                    sh('deploy.sh')
+                    sh('./deploy.sh')
                 }
             }
         }
