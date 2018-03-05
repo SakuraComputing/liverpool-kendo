@@ -10,7 +10,7 @@ const cont = {
     overflow: 'hidden',
     float: 'left',
     position: 'relative'
-}
+};
 
 export default ({ photo, margin}) => {
     return (<div style={{ margin, width: photo.width, ...cont }}>

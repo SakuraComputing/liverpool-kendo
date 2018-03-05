@@ -4,6 +4,7 @@ import Photo from './Photo';
 import { SortableContainer, SortableElement, arrayMove } from 'react-sortable-hoc';
 
 const photos = [
+    { src: '/images/IMG_0966.jpg', width: 7, height: 5},
     { src: '/images/kendo.jpg', width: 4, height: 3 },
     { src: '/images/kendokata.jpg', width: 1, height: 1 },
     { src: '/images/tsuki.jpeg', width: 5, height: 4 },
