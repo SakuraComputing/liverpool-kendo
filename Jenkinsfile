@@ -17,9 +17,6 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'ls -latr'
-                sh 'heroku git:remote -a liverpool-kendo-club'
-                sh 'git remote add heroku git@heroku.com:liverpool-kendo-club.git'
                 sh 'git push --force heroku master'
             }
         }
