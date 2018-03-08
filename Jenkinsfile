@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'git commit -m "First commit"
+                sh 'git commit -m "First commit"'
                 sh 'git push --force heroku master'
             }
         }
