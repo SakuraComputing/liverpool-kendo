@@ -15,10 +15,5 @@ pipeline {
                 sh 'yarn test -u'
             }
         }
-        stage('Deliver') {
-            steps {
-                sh './deploy.sh'
-            }
-        }
     }
 }
