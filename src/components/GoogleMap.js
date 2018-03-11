@@ -3,16 +3,7 @@ import React from 'react';
 import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => (
-<div style={{
-     position: 'relative',
-     color: 'white',
-     background: 'red',
-     height: 30,
-     width: 60,
-     cursor: 'pointer',
-     top: 0,
-     left: -20,
- }}>
+<div className="map-pointer">
     {text}
     </div>
 );
