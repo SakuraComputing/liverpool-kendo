@@ -12,6 +12,7 @@ class Video extends React.Component {
                         url='https://www.youtube.com/watch?v=8Ea2ih7uNW4'
                         width='100%'
                         height='100%'
+                        controls={true}
                     />
                 </div>
                 <div>30 minute programme about kendo and what you should expect to get from it</div>
@@ -22,6 +23,7 @@ class Video extends React.Component {
                         url="https://www.youtube.com/watch?v=My-XxYovtkY"
                         width='100%'
                         height='100%'
+                        controls={true}
                     />
                 </div>
                 <div>The pass rate is around 0.5%</div>
@@ -32,6 +34,7 @@ class Video extends React.Component {
                         url='https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s'
                         width='100%'
                         height='100%'
+                        controls={true}
                     />
                 </div>
                 <div>Kendo is a lifelong study one in which experience is considered more important than physique</div>

@@ -33,5 +33,5 @@ Choose the Jenkinsfilename_docker rename this to Jenkinsfile and push this to th
    
 ## Deployment
 
-The application is deployed to Heroku. This is part of the pipeline and needs
+The application is deployed to Heroku. This is not part of the pipeline as this goes live, instead run deploy.sh from the project root.
 
