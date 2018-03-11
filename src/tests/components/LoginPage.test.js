@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { LoginPage } from '../../components/LoginPage';
+import { LoginPage, mapDispatchToProps } from '../../components/LoginPage';
 
 describe('the login page', () => {
     let wrapper, startLogin;
@@ -20,7 +20,12 @@ describe('the login page', () => {
         wrapper.find('button').at(1).simulate('click');
         expect(startLogin).toHaveBeenCalled();
     });
-
+    it('should map dispatch to props', () => {
+        const mockDispatchStartLogin = jest.fn();
+        const actionProps = mapDispatchToProps(mockDispatchStartLogin);
+        actionProps.startLogin();
+        expect(mockDispatchStartLogin).toHaveBeenCalledTimes(1);
+    });
 });
 
 

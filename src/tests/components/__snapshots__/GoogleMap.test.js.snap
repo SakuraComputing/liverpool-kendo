@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the not found page 1`] = `
+exports[`should render the Google Map component 1`] = `
 <GoogleMap
   bootstrapURLKeys={
     Object {
@@ -10,11 +10,11 @@ exports[`should render the not found page 1`] = `
   debounced={true}
   defaultCenter={
     Object {
-      "lat": 53.3701668,
-      "lng": -2.9195765,
+      "lat": 53.3707973,
+      "lng": -2.9188403,
     }
   }
-  defaultZoom={15}
+  defaultZoom={16}
   distanceToMouse={[Function]}
   googleMapLoader={[Function]}
   heatmap={Object {}}
@@ -34,9 +34,48 @@ exports[`should render the not found page 1`] = `
   yesIWantToUseGoogleMapApiInternals={false}
 >
   <AnyReactComponent
-    lat={53.3701668}
-    lng={-2.9195765}
-    text="Liverpool Kendo Club"
+    lat={53.3707973}
+    lng={-2.9188403}
+  />
+</GoogleMap>
+`;
+
+exports[`should render the not found page 1`] = `
+<GoogleMap
+  bootstrapURLKeys={
+    Object {
+      "key": "AIzaSyADAT64SMWOP7ee4cEOgW8tMYNL673MeDQ",
+    }
+  }
+  debounced={true}
+  defaultCenter={
+    Object {
+      "lat": 53.3707973,
+      "lng": -2.9188403,
+    }
+  }
+  defaultZoom={16}
+  distanceToMouse={[Function]}
+  googleMapLoader={[Function]}
+  heatmap={Object {}}
+  heatmapLibrary={false}
+  hoverDistance={30}
+  layerTypes={Array []}
+  options={[Function]}
+  style={
+    Object {
+      "height": "100%",
+      "margin": 0,
+      "padding": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+  yesIWantToUseGoogleMapApiInternals={false}
+>
+  <AnyReactComponent
+    lat={53.3707973}
+    lng={-2.9188403}
   />
 </GoogleMap>
 `;

@@ -46,11 +46,11 @@ exports[`should render the Address page 1`] = `
     <SimpleMap
       center={
         Object {
-          "lat": 53.3701668,
-          "lng": -2.9195765,
+          "lat": 53.3707973,
+          "lng": -2.9188403,
         }
       }
-      zoom={15}
+      zoom={16}
     />
   </div>
   <p>

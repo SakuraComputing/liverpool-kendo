@@ -17,7 +17,7 @@ export const Sidebar = ({ startLogout }) => (
         </Menu>
 );
 
-const mapDispatchToProps = (dispatch) => ({
+export const mapDispatchToProps = (dispatch) => ({
     startLogout: () => dispatch(startLogout())
 });
 
