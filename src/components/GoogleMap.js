@@ -3,12 +3,12 @@ import React from 'react';
 import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => (
-<div className="map-pointer">
+<div className="map-pointer map-pointer-pulse">
     {text}
     </div>
 );
 
-const LAT = 53.371035, LNG = -2.918652;
+const LAT = 53.3707973, LNG = -2.9188403;
 
 export class SimpleMap extends React.Component {
     static defaultProps = {
@@ -27,7 +27,7 @@ export class SimpleMap extends React.Component {
                 <AnyReactComponent
                     lat={LAT}
                     lng={LNG}
-                    text={'Liverpool Kendo Club'}
+                    // text={'Liverpool Kendo Club'}
                 />
             </GoogleMapReact>
         );
