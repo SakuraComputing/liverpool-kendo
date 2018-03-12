@@ -15,7 +15,5 @@ pipeline {
                 sh 'echo yarn test -u --coverage'
             }
         }
-        stage('Code Coverage)
-        publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'coverage', reportFiles: 'index.html', reportName: 'LCov Report', reportTitles: ''])
     }
 }
