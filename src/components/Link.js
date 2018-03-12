@@ -16,7 +16,7 @@ export const Link = () => {
 
           <h2>Books</h2>
 
-          <a href="https://www.amazon.co.uk/Kendo-Definitive-Guide-Hiroshi-Ozawa/dp/4770021194" target="_blank">Kendo: The Defintive Guide, Hiroshi Ozawa Sensei</a>
+          <a href="https://www.amazon.co.uk/Kendo-Definitive-Guide-Hiroshi-Ozawa/dp/4770021194" target="_blank">Kendo: The Defintive Guide, Hiroshi Ozawa</a>
           <p></p>
           <a href="https://www.amazon.co.uk/Kendo-Comprehensive-Guide-Japanese-Swordsmanship/dp/4805312319/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=B1WFW3JCYGHM5XXMPFB0" target="_blank">Kendo: A Comprehensive Guide to Japanese Swordsmanship, Geoff Salmon</a>
           <p></p>

@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Unit Tests') {
             steps {
-                sh 'echo yarn test -u --coverage'
+                sh 'echo yarn test -u'
             }
         }
     }
