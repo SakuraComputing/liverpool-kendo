@@ -12,7 +12,7 @@ const photos = [
     { src: '/images/miyazaki.jpg', width: 4, height: 4 },
     { src: '/images/alljapan.jpg', width: 5, height: 4 },
     { src: '/images/teramoto.jpg', width: 6, height: 6 },
-
+    { src: '/images/kendojidai_miyazaki.jpg', width: 4, height: 5}
 ];
 
 const SortablePhoto = SortableElement(Photo);
