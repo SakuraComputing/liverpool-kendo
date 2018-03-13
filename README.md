@@ -35,3 +35,9 @@ Choose the Jenkinsfilename_docker rename this to Jenkinsfile and push this to th
 
 The application is deployed to Heroku. This is not part of the pipeline as this goes live, instead run deploy.sh from the project root.
 
+## Unit Tests
+
+These are carried out using Jest
+
+
+
