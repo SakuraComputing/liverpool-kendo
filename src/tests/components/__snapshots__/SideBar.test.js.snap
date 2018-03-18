@@ -63,6 +63,14 @@ exports[`Side Bar should render the side bar correctly 1`] = `
   >
     Videos
   </Link>
+  <Link
+    className="bm-item-list"
+    id="kendostudy"
+    replace={false}
+    to="/study"
+  >
+    Kendo Study
+  </Link>
   <a
     className="bm-item-list"
     href="/"
