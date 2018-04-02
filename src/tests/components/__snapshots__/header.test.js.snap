@@ -12,6 +12,7 @@ exports[`should render header correctly 1`] = `
     >
       <Link
         className="header__title"
+        exact={true}
         replace={false}
         to="/dashboard"
       >
@@ -19,11 +20,20 @@ exports[`should render header correctly 1`] = `
           Liverpool Kendo Club
         </h1>
       </Link>
-      <img
-        alt="lkc_logo"
-        className="header__icon"
-        src="/images/lkc_logo.jpg"
-      />
+      <div
+        className="header_logout-justify"
+      >
+        <span
+          className="header__displayName"
+        />
+        <br />
+        <button
+          className="button button--link"
+          onClick={[Function]}
+        >
+           Logout
+        </button>
+      </div>
     </div>
   </div>
   <Connect(Sidebar) />

@@ -1,8 +1,9 @@
 import { firebase, googleAuthProvider, facebookAuthProvider } from '../firebase/firebase';
 
-export const login = (uid) => ({
+export const login = (uid, currentUser) => ({
     type: 'LOGIN',
-    uid
+    uid,
+    currentUser,
 });
 
 export const startLogin = (provider) => {
@@ -14,6 +15,22 @@ export const startLogin = (provider) => {
             return firebase.auth().signInWithPopup(facebookAuthProvider);
       }
   };
+};
+
+export const createLoginEmail = (email, password) => {
+    return () => {
+        return firebase.auth().createUserWithEmailAndPassword(email, password).catch((e) => {
+            return e;
+        });
+    };
+};
+
+export const startLoginEmail = (email, password) => {
+    return () => {
+        return firebase.auth().signInWithEmailAndPassword(email, password).catch((e) => {
+            return e;
+        });
+    };
 };
 
 export const logout = () => ({
