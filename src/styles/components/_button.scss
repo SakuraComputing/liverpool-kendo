@@ -1,6 +1,7 @@
 .button {
   background: $blue;
   border: none;
+  border-radius: 0;
   color: white;
   display: inline-block;
   font-size: $font-size-large;
@@ -8,14 +9,25 @@
   line-height: 1;
   padding: $s-size;
   text-decoration: none;
+  &:hover {
+    background: darken($blue, 5);
+  }
+
 }
 
 .button--link {
   backgound: none;
+  &:hover {
+    background: none !important;
+    color: darken(white, 10);
+  }
 }
 
 .button--secondary {
   background: #888888;
+  &:hover {
+    background-color: darken(#888, 10) !important;
+  }
 }
 
 .button--with-icon {
