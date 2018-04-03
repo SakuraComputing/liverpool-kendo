@@ -39,5 +39,9 @@ The application is deployed to Heroku. This is not part of the pipeline as this 
 
 These are carried out using Jest
 
+## Code Coverage
+
+OpenClover set at 50%
+
 
 
