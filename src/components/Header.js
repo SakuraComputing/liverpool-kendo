@@ -15,6 +15,7 @@ export const Header = ({ dispatchStartLogoutProp, currentUser }) => (
                 {/*<img src="/images/lkc_logo.jpg" alt="lkc_logo" className="header__icon" />*/}
                 <div className="header_logout-justify">
                     <span className="header__displayName">{currentUser.displayName || currentUser.email}</span><br />
+
                     <button className="button button--link" onClick={dispatchStartLogoutProp}> Logout</button>
                 </div>
             </div>
