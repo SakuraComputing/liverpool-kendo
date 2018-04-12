@@ -1,21 +1,32 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
-import { Header } from '../../components/Header';
+import { Header, mapDispatchToProps } from '../../components/Header';
 
-let dispatchStartLogoutPropSpy, wrapper, currentUser;
+let dispatchStartLogoutProp, wrapper, currentUser;
 
-beforeEach(() => {
-    dispatchStartLogoutPropSpy = jest.fn();
-    currentUser = jest.fn();
-    wrapper = shallow(<Header dispatchStartLogoutProp={dispatchStartLogoutPropSpy} currentUser={currentUser}/>);
+describe('Header Page', () => {
+
+    beforeEach(() => {
+        dispatchStartLogoutProp = jest.fn();
+        currentUser = jest.fn();
+        wrapper = shallow(<Header dispatchStartLogoutProp={dispatchStartLogoutProp} currentUser={currentUser}/>);
+    });
+
+    it('should render header correctly',() => {
+        expect(toJSON(wrapper)).toMatchSnapshot();
+    });
+    it('expect dispatchStartLogout to have been called on click', () => {
+        wrapper.find('button').simulate('click');
+        expect(dispatchStartLogoutProp).toHaveBeenCalled();
+    });
+
+    it('should map dispatch to props', () => {
+        const mockDispatchStartLogout = jest.fn();
+        const actionProps = mapDispatchToProps(mockDispatchStartLogout);
+        actionProps.dispatchStartLogoutProp();
+        expect(mockDispatchStartLogout).toHaveBeenCalledTimes(1);
+    });
 });
 
-test('should render header correctly',() => {
-    expect(toJSON(wrapper)).toMatchSnapshot();
-});
 
-test('expect dispatchStartLogout to have been called on click', () => {
-    wrapper.find('button').simulate('click');
-    expect(dispatchStartLogoutPropSpy).toHaveBeenCalled();
-});

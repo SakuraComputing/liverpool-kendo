@@ -27,7 +27,7 @@ export const Header = ({ dispatchStartLogoutProp, currentUser }) => (
 const mapStateToProps = (state) => ({
     currentUser: state.auth.currentUser,
 });
-const mapDispatchToProps = (dispatch) => ({
+export const mapDispatchToProps = (dispatch) => ({
     dispatchStartLogoutProp: () => dispatch(startLogout()),
 });
 

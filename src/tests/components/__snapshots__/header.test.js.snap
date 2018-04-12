@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render header correctly 1`] = `
+exports[`Header Page should render header correctly 1`] = `
 <header
   className="header"
 >
@@ -12,7 +12,6 @@ exports[`should render header correctly 1`] = `
     >
       <Link
         className="header__title"
-        exact={true}
         replace={false}
         to="/dashboard"
       >
