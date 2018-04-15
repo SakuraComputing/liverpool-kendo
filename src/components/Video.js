@@ -38,6 +38,17 @@ class Video extends React.Component {
                     />
                 </div>
                 <div>The pass rate is around 0.5%</div>
+                <h2>Kendo Kata</h2>
+                <div className="player-wrapper">
+                    <ReactPlayer
+                        className="react-player"
+                        url="https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM"
+                        width='100%'
+                        height='100%'
+                        controls={true}
+                    />
+                </div>
+                <div>Kendo kata are vitally important as part of kendo study</div>
                 <h2>Mochida Sensei 10th Dan</h2>
                 <div className="player-wrapper">
                     <ReactPlayer
