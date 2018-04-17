@@ -19,6 +19,12 @@ import { firebase } from './firebase/firebase';
 
 store.getState();
 
+// JQuery
+const $ = require('jquery');
+window.$ = $;
+window.jQuery = $;
+require('bootstrap');
+
 // const store = configureStore();
 
 const jsx = (

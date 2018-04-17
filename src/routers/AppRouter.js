@@ -12,6 +12,7 @@ import PhotoPage from '../components/PhotoPage';
 import Video from '../components/Video';
 import KendoStudy from '../components/KendoStudy';
 import Events from '../components/Events';
+import Board from '../components/Board';
 
 export const history = createHistory();
 
@@ -26,7 +27,8 @@ const AppRouter = () => (
                 <PrivateRoute path="/photo" component={PhotoPage} />
                 <PrivateRoute path="/video" component={Video}/>
                 <PrivateRoute path='/study' component={KendoStudy}/>
-                <PrivateRoute path='/events' component={Events}></PrivateRoute>
+                <PrivateRoute path='/events' component={Events}/>
+                <PrivateRoute path='/board' component={Board}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>

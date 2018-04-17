@@ -15,6 +15,7 @@ export const Sidebar = ({ startLogout }) => (
             <Link to="/video" id="video" className="bm-item-list">Videos</Link>
             <Link to='/study' id="kendostudy" className="bm-item-list">Kendo Study</Link>
             <Link to='/events' id="events" className="bm-item-list">Kendo Events</Link>
+            <Link to='/board' id="boards" className="bm-item-list">Bulletin Board</Link>
             <a onClick={startLogout} className="bm-item-list" href="/">Log Out</a>
         </Menu>
 );

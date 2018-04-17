@@ -79,6 +79,14 @@ exports[`Side Bar should render the side bar correctly 1`] = `
   >
     Kendo Events
   </Link>
+  <Link
+    className="bm-item-list"
+    id="boards"
+    replace={false}
+    to="/board"
+  >
+    Bulletin Board
+  </Link>
   <a
     className="bm-item-list"
     href="/"
