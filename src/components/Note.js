@@ -1,6 +1,6 @@
 import React from 'react'
 import $ from 'jquery'
-import ui from 'jquery-ui/draggable'
+import ui from 'jquery-ui/ui/widgets/draggable';
 
 class Note extends React.Component {
 

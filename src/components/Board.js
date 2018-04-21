@@ -70,12 +70,11 @@ class Board extends React.Component {
 
     render() {
         return (
-            <div className="content-container">
-                <div className="board">
-                    {this.state.notes.map(this.eachNote)}
-                    <button className="btn btn-sm btn-success glyphicon glyphicon-plus"
-                            onClick={this.add.bind(null, "New Note")}/>
-                </div>
+
+            <div className="board">
+                {this.state.notes.map(this.eachNote)}
+                <button className="btn btn-sm btn-success glyphicon glyphicon-plus"
+                        onClick={this.add.bind(null, "New Note")}/>
             </div>
 
         )
