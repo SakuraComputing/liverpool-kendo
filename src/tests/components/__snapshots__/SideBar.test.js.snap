@@ -81,7 +81,8 @@ exports[`Side Bar should render the side bar correctly 1`] = `
   </Link>
   <Link
     className="bm-item-list"
-    id="boards"
+    href="/board"
+    id="board"
     replace={false}
     to="/board"
   >

@@ -61,6 +61,7 @@ class Note extends React.Component {
     }
 
     renderForm() {
+
         return <div className="note"
                     style={this.style}>
             <textarea ref="newText" defaultValue={this.props.children}
@@ -89,5 +90,4 @@ class Note extends React.Component {
     }
 
 }
-
-module.exports = Note;
+export default Note;

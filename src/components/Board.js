@@ -4,7 +4,7 @@ import Note from './Note'
 class Board extends React.Component {
 
     static defaultProps = {
-        count: 100
+        count: 10
     };
 
     constructor() {
@@ -14,7 +14,6 @@ class Board extends React.Component {
             notes: []
         };
 
-
         this.nextId = this.nextId.bind(this);
         this.add = this.add.bind(this);
         this.update = this.update.bind(this);
@@ -23,7 +22,7 @@ class Board extends React.Component {
     }
 
     componentWillMount() {
-        var self = this;
+        const self = this;
         if (this.props.count) {
             $.getJSON("http://baconipsum.com/api/?type=all-meat&sentences=" + this.props.count + "&start-with-lorem=1&callback=?", function (results) {
                 results[0].split('. ').forEach(function (sentence) {
@@ -39,7 +38,7 @@ class Board extends React.Component {
     }
 
     add(text) {
-        var arr = this.state.notes;
+        const arr = this.state.notes;
         arr.push({
             id: this.nextId(),
             note: text
@@ -49,15 +48,15 @@ class Board extends React.Component {
 
     update(newText, i) {
         console.log("Updating item at index " + i + ", " + newText);
-        var arr = this.state.notes;
+        const arr = this.state.notes;
         arr[i].note = newText;
         this.setState({notes: arr});
     }
 
     remove(i) {
         console.log("Removing item at index " + i);
-        var arr = this.state.notes;
-        var n = arr.splice(i, 1);
+        const arr = this.state.notes;
+        const n = arr.splice(i, 1);
         this.setState({notes: arr});
     }
 
@@ -81,20 +80,4 @@ class Board extends React.Component {
     }
 
 }
-
-// Board.propTypes = {
-//     count(props, propName) {
-//
-//         if (typeof props[propName] !== "number") {
-//             return new Error('The count property must be a number');
-//         }
-//
-//         if (props[propName] > 100) {
-//             return new Error('Creating ' + props[propName] + ' notes is ridiculous');
-//         }
-//
-//     }
-// };
-
-// module.exports = Board;
 export default Board;

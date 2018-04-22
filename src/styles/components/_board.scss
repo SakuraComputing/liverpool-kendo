@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 body,
-html,
-div.board,
+html ,
+div.board ,
 div#react-container {
   height: 100%;
   overflow: hidden;
@@ -10,6 +10,7 @@ div#react-container {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 div.board {
