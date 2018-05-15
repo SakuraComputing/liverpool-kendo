@@ -6,6 +6,8 @@ export default (state = initialState, action) => {
         //         return action.payload;
         //     case
         // }
+        case 'CLEAR_ERRORS':
+            return {};
         default:
             return state;
     }
