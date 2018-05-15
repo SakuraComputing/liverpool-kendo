@@ -4,6 +4,7 @@ import createHistory from 'history/createBrowserHistory';
 import DashboardPage from '../components/DashboardPage';
 import NotFoundPage from '../components/NotFoundPage';
 import LoginPage from '../components/LoginPage';
+import Register from '../components/auth/Register';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 import AboutPage from '../components/About';
@@ -27,6 +28,7 @@ const AppRouter = () => (
                 <PrivateRoute path="/video" component={Video}/>
                 <PrivateRoute path='/study' component={KendoStudy}/>
                 <PrivateRoute path='/events' component={Events}></PrivateRoute>
+                <PrivateRoute paht='/register' component={Register}></PrivateRoute>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>
