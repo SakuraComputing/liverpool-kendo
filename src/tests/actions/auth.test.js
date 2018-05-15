@@ -1,4 +1,4 @@
-import { startLogin, login, startLogout, logout } from '../../actions/auth';
+import { startLogin, login, startLogout, logout, registerUser } from '../../actions/auth';
 
 
 describe('authorisation action object', () => {
@@ -23,6 +23,18 @@ describe('authorisation action object', () => {
     it('should call firebase logout', () => {
         const call = startLogout();
         expect(call).toEqual(expect.any(Function));
+    });
+    it('should set up the register user object', () => {
+        const userData = {
+          userId: 'test',
+          email: 'test@test.com',
+          password: '5445gkfkds'
+        };
+       const action = registerUser(userData);
+       expect(action).toEqual({
+           type: 'REGISTER',
+           userData: userData
+       });
     });
 });
 

@@ -1,5 +1,11 @@
 import { firebase, googleAuthProvider, facebookAuthProvider } from '../firebase/firebase';
 
+
+export const registerUser = (userData) => ({
+    type: 'REGISTER',
+    userData
+});
+
 export const login = (uid, currentUser) => ({
     type: 'LOGIN',
     uid,
