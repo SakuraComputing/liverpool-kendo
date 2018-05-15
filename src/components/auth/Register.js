@@ -15,25 +15,44 @@ class Register extends React.Component {
             errors: {}
         };
     }
+
+    onChange = (e) => {
+        this.setState({ [e.target.name ]: e.target.value })
+    };
+
     onSubmit = (e) => {
       e.preventDefault();
     };
 
     render() {
+        const { errors } = this.state;
         return (
-            <div>
-                <h1>Registration form</h1>
+            <div className="content-container">
+                <div className="input-group">
+
+                </div>
+                <form className="form" onSubmit={this.onSubmit}>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="submit"
+                           className="button"
+                    />
+                </form>
             </div>
         )
     }
 };
 
 Register.propTypes = {
-  auth: PropTypes.object.isRequired
+    auth: PropTypes.object.isRequired,
+    errors: PropTypes.object.isRequired
 };
 
 const mapStateToProps = (state) => ({
-   auth: state.auth
+    auth: state.auth,
+    errors: state.errors
 });
 
 export default connect(mapStateToProps, { registerUser })(Register);

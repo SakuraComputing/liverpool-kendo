@@ -20,6 +20,20 @@ describe('auth reducer test',() => {
        const state = authReducer({uid: 'test'}, action);
        expect(state).toEqual({});
     });
+
+    it('should set current user', () => {
+        const action = { type: 'SET_CURRENT_USER'};
+        const payload = {
+          isAuthenticated: true,
+          user: { user: 'User' }
+        };
+        const state = authReducer(payload, action);
+        expect(state).toEqual({
+            isAuthenticated: false,
+            user: undefined
+        })
+    });
+
 });
 
 
