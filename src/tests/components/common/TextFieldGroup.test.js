@@ -5,7 +5,7 @@ import TextFieldGroup from "../../../components/common/TextFieldGroup";
 
 describe('Text Field Group Component', () => {
     it('should return a div component', () => {
-        wrapper = shallow(<TextFieldGroup />);
+        const wrapper = shallow(<TextFieldGroup />);
         expect(wrapper).toMatchSnapshot();
     });
     it('should render info',() => {

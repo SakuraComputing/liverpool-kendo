@@ -21,16 +21,16 @@ describe('auth reducer test',() => {
        expect(state).toEqual({});
     });
 
-    it('should set current user', () => {
-        const action = { type: 'SET_CURRENT_USER'};
-        const payload = {
-          isAuthenticated: true,
-          user: { user: 'User' }
+    it('should authenticate current user', () => {
+        const action = {
+            type: 'SET_CURRENT_USER',
+            payload: 'Clinton Stich'
         };
-        const state = authReducer(payload, action);
+        const state = authReducer({} , action);
+        // console.log(state);
         expect(state).toEqual({
-            isAuthenticated: false,
-            user: undefined
+            isAuthenticated: true,
+            user: action.payload
         })
     });
 
