@@ -12,16 +12,16 @@ exports[`should render Events form correctly 1`] = `
   </h2>
   <p />
   <p>
-    Watchet seminar 19-05-2018 grading up to Yondan
-  </p>
-  <p />
-  <p>
     ***Stoke seminar 28-07-2018 grading to Yondan
   </p>
   <p />
   <h2>
     Seminar
   </h2>
+  <p />
+  <p>
+    Ozawa Sensei Seminar Oxford 6th-8th June
+  </p>
   <p />
   <p>
     Ozawa Sensei seminar Edinburgh - 30th June
@@ -33,9 +33,8 @@ exports[`should render Events form correctly 1`] = `
   <h2>
     Taikai
   </h2>
-  <p />
   <p>
-    London Cup 4th May - 6th May
+    National Premier Cup 21st July
   </p>
   <p />
   <p>

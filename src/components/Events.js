@@ -7,13 +7,12 @@ export const Events = () => {
 
             <h2>Gradings</h2>
             <p></p>
-            <p>Watchet seminar 19-05-2018 grading up to Yondan</p>
-            <p></p>
             <p>***Stoke seminar 28-07-2018 grading to Yondan</p>
             <p></p>
 
             <h2>Seminar</h2>
-
+            <p></p>
+            <p>Ozawa Sensei Seminar Oxford 6th-8th June</p>
             <p></p>
             <p>Ozawa Sensei seminar Edinburgh - 30th June</p>
             <p></p>
@@ -21,8 +20,7 @@ export const Events = () => {
 
             <h2>Taikai</h2>
 
-            <p></p>
-            <p>London Cup 4th May - 6th May</p>
+            <p>National Premier Cup 21st July</p>
             <p></p>
             <p>Tonbo Cup (Bolton) 4th August</p>
 
