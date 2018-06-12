@@ -12,11 +12,21 @@ export const Events = () => {
 
             <h2>Seminar</h2>
             <p></p>
-            <p>Ozawa Sensei Seminar Oxford 6th-8th June</p>
+            <h3>Ozawa Sensei seminar Edinburgh - 30th June</h3>
+            <p>1. Hiroshi OZAWA Hachidan</p>
             <p></p>
-            <p>Ozawa Sensei seminar Edinburgh - 30th June</p>
-            <p></p>
-            <p>Kodokan International Seminar 30th August - 2nd September - Sumi Sensei Hanshi Hachidan</p>
+            <h3>Three Hanshi from the 8th to the 12th August 2018</h3>
+            <p>1. Saburo IWATATE sensei, Kendo Hanshi Hachidan</p>
+            <p>2. Tamiya KO sensei, Kendo Hanshi Hachidan</p>
+            <p>3. Michio UJIIE sensei, Kendo Hanshi Hachidan</p>
+            <p>
+
+                NB: There will also be a grading to Godan.
+
+            </p>
+            <h3>Kodokan International Seminar 30th August - 2nd September</h3>
+            <p>1. Sumi Sensei Hanshi Hachidan</p>
+            <p>2. Tashiro sensei Hachidan</p>
 
             <h2>Taikai</h2>
 
