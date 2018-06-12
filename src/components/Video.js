@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 import videoJson from '../../data/video';
 import VideoItem from "./VideoItem";
 
@@ -18,7 +17,7 @@ class Video extends React.Component {
             videoArray: videoArray
         });
     }
-    
+
     render () {
 
         const { videoArray } = this.state;
