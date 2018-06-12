@@ -16,9 +16,9 @@ export const Events = () => {
             <p>1. Hiroshi OZAWA Hachidan</p>
             <p></p>
             <h3>Three Hanshi from the 8th to the 12th August 2018</h3>
-            <p>1. Saburo IWATATE sensei, Kendo Hanshi Hachidan</p>
-            <p>2. Tamiya KO sensei, Kendo Hanshi Hachidan</p>
-            <p>3. Michio UJIIE sensei, Kendo Hanshi Hachidan</p>
+            <p>1. Saburo IWATATE sensei, Hanshi Hachidan</p>
+            <p>2. Tamiya KO sensei, Hanshi Hachidan</p>
+            <p>3. Michio UJIIE sensei, Hanshi Hachidan</p>
             <p>
 
                 NB: There will also be a grading to Godan.
