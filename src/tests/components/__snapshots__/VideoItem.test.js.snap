@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Video page 1`] = `
+<div
+  className="content-container"
+>
+  <h2 />
+  <div
+    className="player-wrapper"
+  >
+    <ReactPlayer
+      className="react-player"
+      config={
+        Object {
+          "dailymotion": Object {
+            "params": Object {
+              "api": 1,
+              "endscreen-enable": false,
+            },
+            "preload": false,
+          },
+          "facebook": Object {
+            "appId": "1309697205772819",
+          },
+          "file": Object {
+            "attributes": Object {},
+            "forceAudio": false,
+            "forceDASH": false,
+            "forceHLS": false,
+            "hlsOptions": Object {},
+            "tracks": Array [],
+          },
+          "soundcloud": Object {
+            "options": Object {
+              "buying": false,
+              "download": false,
+              "liking": false,
+              "sharing": false,
+              "show_comments": false,
+              "show_playcount": false,
+              "visual": true,
+            },
+          },
+          "vimeo": Object {
+            "playerOptions": Object {
+              "autopause": false,
+              "autoplay": false,
+              "byline": false,
+              "portrait": false,
+              "title": false,
+            },
+            "preload": false,
+          },
+          "wistia": Object {
+            "options": Object {},
+          },
+          "youtube": Object {
+            "playerVars": Object {
+              "autoplay": 0,
+              "iv_load_policy": 3,
+              "modestbranding": 1,
+              "playsinline": 1,
+              "rel": 0,
+              "showinfo": 0,
+            },
+            "preload": false,
+          },
+        }
+      }
+      controls={true}
+      height="100%"
+      loop={false}
+      muted={false}
+      onBuffer={[Function]}
+      onDuration={[Function]}
+      onEnded={[Function]}
+      onError={[Function]}
+      onPause={[Function]}
+      onPlay={[Function]}
+      onProgress={[Function]}
+      onReady={[Function]}
+      onSeek={[Function]}
+      onStart={[Function]}
+      playbackRate={1}
+      playing={false}
+      playsinline={false}
+      progressInterval={1000}
+      style={Object {}}
+      volume={0.8}
+      width="100%"
+    />
+  </div>
+  <div />
+</div>
+`;

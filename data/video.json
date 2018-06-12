@@ -1,0 +1,41 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Japanology Kendo",
+      "youTubeUrl": "https://www.youtube.com/watch?v=8Ea2ih7uNW4",
+      "synopsis": "30 minute programme about kendo and what you should expect to get from it."
+    },
+    {
+      "id": 2,
+      "title": "Mariko Yamamoto - Women's Kendo Champion",
+      "youTubeUrl": "https://www.youtube.com/watch?v=D2Vei2tMgp4",
+      "synopsis": "Kendo shows your heart."
+    },
+    {
+      "id": 3,
+      "title": "Kendo 8th Dan challenge the toughest exam in Japan",
+      "youTubeUrl": "https://www.youtube.com/watch?v=My-XxYovtkY",
+      "synopsis": "The pass rate is around 0.5%"
+    },
+    {
+      "id": 4,
+      "title": "Kendo Kata",
+      "youTubeUrl": "https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM",
+      "synopsis": "Kendo kata are vitally important as part of kendo study"
+    },
+    {
+      "id": 5,
+      "title": "Mochida Sensei 10th Dan",
+      "youTubeUrl": "https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s",
+      "synopsis": "Kendo is a lifelong study one in which experience is considered more important than physique"
+    },
+    {
+      "id": 6,
+      "title": "Kakarigeiko",
+      "youTubeUrl": "https://www.youtube.com/watch?v=v_mBWfdojIs",
+      "synopsis": "A demanding exercise in kendo that builds spirit and helps to extinguish the four sicknesses of kendo"
+    }
+
+  ]
+}

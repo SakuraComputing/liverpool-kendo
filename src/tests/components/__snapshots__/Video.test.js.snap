@@ -1,468 +1,72 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render the Video page 1`] = `
-<div
-  className="content-container"
->
-  <h2>
-    Japanology Kendo
-  </h2>
+<div>
   <div
-    className="player-wrapper"
+    className="content-container"
+    key="1"
   >
-    <ReactPlayer
-      className="react-player"
-      config={
-        Object {
-          "dailymotion": Object {
-            "params": Object {
-              "api": 1,
-              "endscreen-enable": false,
-            },
-            "preload": false,
-          },
-          "facebook": Object {
-            "appId": "1309697205772819",
-          },
-          "file": Object {
-            "attributes": Object {},
-            "forceAudio": false,
-            "forceDASH": false,
-            "forceHLS": false,
-            "hlsOptions": Object {},
-            "tracks": Array [],
-          },
-          "soundcloud": Object {
-            "options": Object {
-              "buying": false,
-              "download": false,
-              "liking": false,
-              "sharing": false,
-              "show_comments": false,
-              "show_playcount": false,
-              "visual": true,
-            },
-          },
-          "vimeo": Object {
-            "playerOptions": Object {
-              "autopause": false,
-              "autoplay": false,
-              "byline": false,
-              "portrait": false,
-              "title": false,
-            },
-            "preload": false,
-          },
-          "wistia": Object {
-            "options": Object {},
-          },
-          "youtube": Object {
-            "playerVars": Object {
-              "autoplay": 0,
-              "iv_load_policy": 3,
-              "modestbranding": 1,
-              "playsinline": 1,
-              "rel": 0,
-              "showinfo": 0,
-            },
-            "preload": false,
-          },
-        }
-      }
-      controls={true}
-      height="100%"
-      loop={false}
-      muted={false}
-      onBuffer={[Function]}
-      onDuration={[Function]}
-      onEnded={[Function]}
-      onError={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onProgress={[Function]}
-      onReady={[Function]}
-      onSeek={[Function]}
-      onStart={[Function]}
-      playbackRate={1}
-      playing={false}
-      playsinline={false}
-      progressInterval={1000}
-      style={Object {}}
-      url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
-      volume={0.8}
-      width="100%"
+    <VideoItem
+      id={1}
+      synopsis="30 minute programme about kendo and what you should expect to get from it."
+      title="Japanology Kendo"
+      youTubeUrl="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
     />
   </div>
-  <div>
-    30 minute programme about kendo and what you should expect to get from it.
-  </div>
-  <h2>
-    Mariko Yamamoto - Women's Kendo Champion
-  </h2>
   <div
-    className="player-wrapper"
+    className="content-container"
+    key="2"
   >
-    <ReactPlayer
-      className="react-player"
-      config={
-        Object {
-          "dailymotion": Object {
-            "params": Object {
-              "api": 1,
-              "endscreen-enable": false,
-            },
-            "preload": false,
-          },
-          "facebook": Object {
-            "appId": "1309697205772819",
-          },
-          "file": Object {
-            "attributes": Object {},
-            "forceAudio": false,
-            "forceDASH": false,
-            "forceHLS": false,
-            "hlsOptions": Object {},
-            "tracks": Array [],
-          },
-          "soundcloud": Object {
-            "options": Object {
-              "buying": false,
-              "download": false,
-              "liking": false,
-              "sharing": false,
-              "show_comments": false,
-              "show_playcount": false,
-              "visual": true,
-            },
-          },
-          "vimeo": Object {
-            "playerOptions": Object {
-              "autopause": false,
-              "autoplay": false,
-              "byline": false,
-              "portrait": false,
-              "title": false,
-            },
-            "preload": false,
-          },
-          "wistia": Object {
-            "options": Object {},
-          },
-          "youtube": Object {
-            "playerVars": Object {
-              "autoplay": 0,
-              "iv_load_policy": 3,
-              "modestbranding": 1,
-              "playsinline": 1,
-              "rel": 0,
-              "showinfo": 0,
-            },
-            "preload": false,
-          },
-        }
-      }
-      controls={true}
-      height="100%"
-      loop={false}
-      muted={false}
-      onBuffer={[Function]}
-      onDuration={[Function]}
-      onEnded={[Function]}
-      onError={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onProgress={[Function]}
-      onReady={[Function]}
-      onSeek={[Function]}
-      onStart={[Function]}
-      playbackRate={1}
-      playing={false}
-      playsinline={false}
-      progressInterval={1000}
-      style={Object {}}
-      url="https://www.youtube.com/watch?v=D2Vei2tMgp4"
-      volume={0.8}
-      width="100%"
+    <VideoItem
+      id={2}
+      synopsis="Kendo shows your heart."
+      title="Mariko Yamamoto - Women's Kendo Champion"
+      youTubeUrl="https://www.youtube.com/watch?v=D2Vei2tMgp4"
     />
   </div>
-  <div>
-    Kendo shows your heart.
-  </div>
-  <h2>
-    Kendo 8th Dan challenge the toughest exam in Japan
-  </h2>
   <div
-    className="player-wrapper"
+    className="content-container"
+    key="3"
   >
-    <ReactPlayer
-      className="react-player"
-      config={
-        Object {
-          "dailymotion": Object {
-            "params": Object {
-              "api": 1,
-              "endscreen-enable": false,
-            },
-            "preload": false,
-          },
-          "facebook": Object {
-            "appId": "1309697205772819",
-          },
-          "file": Object {
-            "attributes": Object {},
-            "forceAudio": false,
-            "forceDASH": false,
-            "forceHLS": false,
-            "hlsOptions": Object {},
-            "tracks": Array [],
-          },
-          "soundcloud": Object {
-            "options": Object {
-              "buying": false,
-              "download": false,
-              "liking": false,
-              "sharing": false,
-              "show_comments": false,
-              "show_playcount": false,
-              "visual": true,
-            },
-          },
-          "vimeo": Object {
-            "playerOptions": Object {
-              "autopause": false,
-              "autoplay": false,
-              "byline": false,
-              "portrait": false,
-              "title": false,
-            },
-            "preload": false,
-          },
-          "wistia": Object {
-            "options": Object {},
-          },
-          "youtube": Object {
-            "playerVars": Object {
-              "autoplay": 0,
-              "iv_load_policy": 3,
-              "modestbranding": 1,
-              "playsinline": 1,
-              "rel": 0,
-              "showinfo": 0,
-            },
-            "preload": false,
-          },
-        }
-      }
-      controls={true}
-      height="100%"
-      loop={false}
-      muted={false}
-      onBuffer={[Function]}
-      onDuration={[Function]}
-      onEnded={[Function]}
-      onError={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onProgress={[Function]}
-      onReady={[Function]}
-      onSeek={[Function]}
-      onStart={[Function]}
-      playbackRate={1}
-      playing={false}
-      playsinline={false}
-      progressInterval={1000}
-      style={Object {}}
-      url="https://www.youtube.com/watch?v=My-XxYovtkY"
-      volume={0.8}
-      width="100%"
+    <VideoItem
+      id={3}
+      synopsis="The pass rate is around 0.5%"
+      title="Kendo 8th Dan challenge the toughest exam in Japan"
+      youTubeUrl="https://www.youtube.com/watch?v=My-XxYovtkY"
     />
   </div>
-  <div>
-    The pass rate is around 0.5%
-  </div>
-  <h2>
-    Kendo Kata
-  </h2>
   <div
-    className="player-wrapper"
+    className="content-container"
+    key="4"
   >
-    <ReactPlayer
-      className="react-player"
-      config={
-        Object {
-          "dailymotion": Object {
-            "params": Object {
-              "api": 1,
-              "endscreen-enable": false,
-            },
-            "preload": false,
-          },
-          "facebook": Object {
-            "appId": "1309697205772819",
-          },
-          "file": Object {
-            "attributes": Object {},
-            "forceAudio": false,
-            "forceDASH": false,
-            "forceHLS": false,
-            "hlsOptions": Object {},
-            "tracks": Array [],
-          },
-          "soundcloud": Object {
-            "options": Object {
-              "buying": false,
-              "download": false,
-              "liking": false,
-              "sharing": false,
-              "show_comments": false,
-              "show_playcount": false,
-              "visual": true,
-            },
-          },
-          "vimeo": Object {
-            "playerOptions": Object {
-              "autopause": false,
-              "autoplay": false,
-              "byline": false,
-              "portrait": false,
-              "title": false,
-            },
-            "preload": false,
-          },
-          "wistia": Object {
-            "options": Object {},
-          },
-          "youtube": Object {
-            "playerVars": Object {
-              "autoplay": 0,
-              "iv_load_policy": 3,
-              "modestbranding": 1,
-              "playsinline": 1,
-              "rel": 0,
-              "showinfo": 0,
-            },
-            "preload": false,
-          },
-        }
-      }
-      controls={true}
-      height="100%"
-      loop={false}
-      muted={false}
-      onBuffer={[Function]}
-      onDuration={[Function]}
-      onEnded={[Function]}
-      onError={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onProgress={[Function]}
-      onReady={[Function]}
-      onSeek={[Function]}
-      onStart={[Function]}
-      playbackRate={1}
-      playing={false}
-      playsinline={false}
-      progressInterval={1000}
-      style={Object {}}
-      url="https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM"
-      volume={0.8}
-      width="100%"
+    <VideoItem
+      id={4}
+      synopsis="Kendo kata are vitally important as part of kendo study"
+      title="Kendo Kata"
+      youTubeUrl="https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM"
     />
   </div>
-  <div>
-    Kendo kata are vitally important as part of kendo study
-  </div>
-  <h2>
-    Mochida Sensei 10th Dan
-  </h2>
   <div
-    className="player-wrapper"
+    className="content-container"
+    key="5"
   >
-    <ReactPlayer
-      className="react-player"
-      config={
-        Object {
-          "dailymotion": Object {
-            "params": Object {
-              "api": 1,
-              "endscreen-enable": false,
-            },
-            "preload": false,
-          },
-          "facebook": Object {
-            "appId": "1309697205772819",
-          },
-          "file": Object {
-            "attributes": Object {},
-            "forceAudio": false,
-            "forceDASH": false,
-            "forceHLS": false,
-            "hlsOptions": Object {},
-            "tracks": Array [],
-          },
-          "soundcloud": Object {
-            "options": Object {
-              "buying": false,
-              "download": false,
-              "liking": false,
-              "sharing": false,
-              "show_comments": false,
-              "show_playcount": false,
-              "visual": true,
-            },
-          },
-          "vimeo": Object {
-            "playerOptions": Object {
-              "autopause": false,
-              "autoplay": false,
-              "byline": false,
-              "portrait": false,
-              "title": false,
-            },
-            "preload": false,
-          },
-          "wistia": Object {
-            "options": Object {},
-          },
-          "youtube": Object {
-            "playerVars": Object {
-              "autoplay": 0,
-              "iv_load_policy": 3,
-              "modestbranding": 1,
-              "playsinline": 1,
-              "rel": 0,
-              "showinfo": 0,
-            },
-            "preload": false,
-          },
-        }
-      }
-      controls={true}
-      height="100%"
-      loop={false}
-      muted={false}
-      onBuffer={[Function]}
-      onDuration={[Function]}
-      onEnded={[Function]}
-      onError={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onProgress={[Function]}
-      onReady={[Function]}
-      onSeek={[Function]}
-      onStart={[Function]}
-      playbackRate={1}
-      playing={false}
-      playsinline={false}
-      progressInterval={1000}
-      style={Object {}}
-      url="https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s"
-      volume={0.8}
-      width="100%"
+    <VideoItem
+      id={5}
+      synopsis="Kendo is a lifelong study one in which experience is considered more important than physique"
+      title="Mochida Sensei 10th Dan"
+      youTubeUrl="https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s"
     />
   </div>
-  <div>
-    Kendo is a lifelong study one in which experience is considered more important than physique
+  <div
+    className="content-container"
+    key="6"
+  >
+    <VideoItem
+      id={6}
+      synopsis="A demanding exercise in kendo that builds spirit and helps to extinguish the four sicknesses of kendo"
+      title="Kakarigeiko"
+      youTubeUrl="https://www.youtube.com/watch?v=v_mBWfdojIs"
+    />
   </div>
 </div>
 `;
