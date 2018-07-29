@@ -30,7 +30,7 @@ exports[`should render the Video page 1`] = `
   >
     <VideoItem
       id={3}
-      synopsis="The pass rate is around 0.5%"
+      synopsis="The pass rate is around 0.6%"
       title="Kendo 8th Dan challenge the toughest exam in Japan"
       youTubeUrl="https://www.youtube.com/watch?v=My-XxYovtkY"
     />
