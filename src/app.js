@@ -42,14 +42,13 @@ ReactDOM.render(<LoadingPage />, rootApp);
 
 firebase.auth().onAuthStateChanged((user) => {
    if(user) {
-       console.log('User logged in with firebase ID: ', user.uid);
        const { currentUser } = firebase.auth();
        currentUser.providerData.forEach((profile) => {
-           console.log(`Sign-in provider:  ${profile.providerId}`);
-           console.log(`Provider-specific UID: ${profile.uid}`);
-           console.log(`Name: ${profile.displayName}`);
-           console.log(`Email: ${profile.email}`);
-           console.log(`Photo URL: ${profile.photoURL}`);
+           // console.log(`Sign-in provider:  ${profile.providerId}`);
+           // console.log(`Provider-specific UID: ${profile.uid}`);
+           // console.log(`Name: ${profile.displayName}`);
+           // console.log(`Email: ${profile.email}`);
+           // console.log(`Photo URL: ${profile.photoURL}`);
        });
         store.dispatch(login(user.uid, currentUser));
         renderApp();
