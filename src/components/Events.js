@@ -7,13 +7,10 @@ export const Events = () => {
 
             <h2>Gradings</h2>
             <p></p>
-            <p>***Stoke seminar 28-07-2018 grading to Yondan</p>
+            <p>Mumeishi Grading - London 14th October</p>
             <p></p>
 
             <h2>Seminar</h2>
-            <p></p>
-            <h3>Ozawa Sensei seminar Edinburgh - 30th June</h3>
-            <p>1. Hiroshi OZAWA Hachidan</p>
             <p></p>
             <h3>Three Hanshi from the 8th to the 12th August 2018</h3>
             <p>1. Saburo IWATATE sensei, Hanshi Hachidan</p>
@@ -29,10 +26,12 @@ export const Events = () => {
             <p>2. Tashiro sensei Hachidan</p>
 
             <h2>Taikai</h2>
-
-            <p>National Premier Cup 21st July</p>
             <p></p>
-            <p>Tonbo Cup (Bolton) 4th August</p>
+            <h4>Tonbo Cup (Bolton) 4th August</h4>
+            <h4>Mumeishi 3's London November 10th</h4>
+            <p></p>
+            <h4>Bowden and British Open 24th and 25th November</h4>
+            <br/>
 
         </div>
     )
