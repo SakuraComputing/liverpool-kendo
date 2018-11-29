@@ -12,30 +12,23 @@ exports[`should render Events form correctly 1`] = `
   </h2>
   <p />
   <p>
-    Mumeishi Grading - London 14th October
+    Northern Grading
   </p>
-  <p />
+  <p>
+    9th December - Glasgow
+  </p>
   <h2>
-    Seminar
+    Summer Seminar
   </h2>
   <p />
   <h3>
-    Three Hanshi from the 8th to the 12th August 2018
+    August TBC
   </h3>
-  <p>
-    1. Saburo IWATATE sensei, Hanshi Hachidan
-  </p>
-  <p>
-    2. Tamiya KO sensei, Hanshi Hachidan
-  </p>
-  <p>
-    3. Michio UJIIE sensei, Hanshi Hachidan
-  </p>
   <p>
     NB: There will also be a grading to Godan.
   </p>
   <h3>
-    Kodokan International Seminar 30th August - 2nd September
+    Kodokan International Seminar TBC
   </h3>
   <p>
     1. Sumi Sensei Hanshi Hachidan
@@ -48,14 +41,14 @@ exports[`should render Events form correctly 1`] = `
   </h2>
   <p />
   <h4>
-    Tonbo Cup (Bolton) 4th August
+    Northern Open - Glasgow 8th-9th December 2018
   </h4>
   <h4>
-    Mumeishi 3's London November 10th
+    Welsh Open 16th-17th February 2018
   </h4>
   <p />
   <h4>
-    Bowden and British Open 24th and 25th November
+    Bowden and British Open 24th and 25th November 2019
   </h4>
   <br />
 </div>
