@@ -4,7 +4,7 @@
 
 Check out the url below for it's live deployment 
 
-https://liverpool-kendo.club.herokuapp.com
+https://liverpool-kendo-club.herokuapp.com
 
 ## Run Jenkins from a server
 
