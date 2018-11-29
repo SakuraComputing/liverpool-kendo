@@ -47,9 +47,6 @@ exports[`should render Events form correctly 1`] = `
     Welsh Open 16th-17th February 2018
   </h4>
   <p />
-  <h4>
-    Bowden and British Open 24th and 25th November 2019
-  </h4>
   <br />
 </div>
 `;
