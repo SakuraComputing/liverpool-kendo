@@ -5,3 +5,5 @@ node_modules/*
 public/dist
 coverage/
 pass.txt
+.DS_Store
+public/.DS_Store
