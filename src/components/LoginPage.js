@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { startLogin } from '../actions/auth';
+import Covid from '../components/Covid';
 
 export const LoginPage = ({startLogin}) => (
     <div>
@@ -8,6 +9,7 @@ export const LoginPage = ({startLogin}) => (
         <div className="box-layout">
             <div className="box-layout__box">
                 <h1 className="box-layout__title">Liverpool Kendo Club</h1>
+                <Covid />
                 <p className="box-layout__synopsis">"The way of the sword"</p>
                 <button className="button button--with-icon" onClick={() => startLogin('google')}><i className="icon-prepend fa fa-google button-icon"/>
                     Login with Google
