@@ -21,11 +21,14 @@
 
 .box-layout__title {
   color: #fff;
-  font-size: 500%;
+  font-size: 360%;
   font-weight: 100;
   letter-spacing: 1px;
   margin: 0 0 $m-size 0;
   line-height: 1;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 500%;
+  }
 }
 
 .box-layout__synopsis {

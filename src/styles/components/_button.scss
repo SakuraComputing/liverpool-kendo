@@ -31,15 +31,21 @@
 }
 
 .button--with-icon {
-  //width: 100%;
-  margin: $s-size 0 0 0;
   display: inline-block;
   justify-content: space-between;
   border-radius: 5px;
   padding: 10px 15px;
+}
+
+.button--with-icon:first-child {
   margin-right: 10px;
 }
 
 .button-icon {
   margin-right: 7px;
+}
+
+.button-container {
+  display: flex;
+  padding-top: 50px;
 }
