@@ -3,15 +3,21 @@
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 25px;
+  left: 1.6rem;
+  top: 2.6rem;
   color: white;
+  &:hover {
+    color: darken(white, 7);
+  }
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
   color: white;
+  &:hover {
+    color: darken(white, 7);
+  }
 }
 
 /* Position and sizing of clickable cross button */

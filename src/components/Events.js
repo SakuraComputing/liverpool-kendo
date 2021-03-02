@@ -1,4 +1,5 @@
 import React from 'react';
+import Covid from './Covid';
 
 export const Events = () => {
     return (
@@ -6,7 +7,7 @@ export const Events = () => {
             <h1>Events coming up</h1>
 
             <h2>Seminars</h2>
-            <p>None until the government lift the COVID restrictions</p>
+            <Covid />
 
         </div>
     )
