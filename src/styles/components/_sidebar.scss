@@ -1,13 +1,17 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
+  width: 22px;
+  height: 20px;
   left: 1.6rem;
   top: 2.6rem;
   color: white;
   &:hover {
     color: darken(white, 7);
+  }
+  @media (min-width: $desktop-breakpoint) {
+    width: 36px;
+    height: 30px;  
   }
 }
 

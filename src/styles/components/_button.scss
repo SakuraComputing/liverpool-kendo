@@ -4,7 +4,13 @@
   border-radius: 0;
   color: white;
   display: inline-block;
-  font-size: $font-size-large;
+
+  font-size: $font-size-small;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: $font-size-large;
+  }
+
+  
   font-weight: 300;
   line-height: 1;
   padding: $s-size;
@@ -20,6 +26,12 @@
   &:hover {
     background: none !important;
     color: darken(white, 10);
+  }
+  // width: 36px;
+  font-size: 70%;
+  height: 30px;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 100%;
   }
 }
 

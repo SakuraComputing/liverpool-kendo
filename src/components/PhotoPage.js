@@ -6,9 +6,6 @@ import { SortableContainer, SortableElement, arrayMove } from 'react-sortable-ho
 const photos = [
     { src: '/images/IMG_0966.jpg', width: 7, height: 5},
     { src: '/images/keiko2.png', width: 5, height: 3 },
-    { src: '/images/do.jpg', width: 4, height: 3 },
-    { src: '/images/alljapan.jpg', width: 5, height: 4 },
-    { src: '/images/teramoto.jpg', width: 6, height: 5 },
     { src: '/images/bowden.jpg', width: 6, height: 5 },
 ];
 

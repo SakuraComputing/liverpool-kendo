@@ -2,9 +2,9 @@ import React from 'react';
 
 import GoogleMapReact from 'google-map-react';
 
-const AnyReactComponent = ({ text }) => (
-<div className="map-pointer map-pointer-pulse">
-    {text}
+const DojoLocation = ({ text }) => (
+    <div className="map-pointer map-pointer-pulse">
+        {text}
     </div>
 );
 
@@ -24,10 +24,9 @@ export class SimpleMap extends React.Component {
                 defaultZoom={this.props.zoom}
 
             >
-                <AnyReactComponent
+                <DojoLocation
                     lat={LAT}
                     lng={LNG}
-                    // text={'Liverpool Kendo Club'}
                 />
             </GoogleMapReact>
         );
