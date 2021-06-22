@@ -41,7 +41,7 @@ exports[`should render the Address page 1`] = `
       center={
         Object {
           "lat": 53.399373,
-          "lng": -2.898834,
+          "lng": 2.898834,
         }
       }
       zoom={16}

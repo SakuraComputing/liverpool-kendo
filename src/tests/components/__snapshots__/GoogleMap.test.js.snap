@@ -11,7 +11,7 @@ exports[`should render the Google Map component 1`] = `
   defaultCenter={
     Object {
       "lat": 53.399373,
-      "lng": -2.898834,
+      "lng": 2.898834,
     }
   }
   defaultZoom={16}
@@ -35,7 +35,7 @@ exports[`should render the Google Map component 1`] = `
 >
   <DojoLocation
     lat={53.399373}
-    lng={-2.898834}
+    lng={2.898834}
   />
 </GoogleMap>
 `;

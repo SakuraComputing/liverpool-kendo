@@ -2,12 +2,11 @@ import React from 'react';
 
 import GoogleMapReact from 'google-map-react';
 
+import { LAT, LNG } from '../config';
+
 const DojoLocation = ({ text }) => (
   <div className="map-pointer map-pointer-pulse">{text}</div>
 );
-
-const LAT = 53.399373,
-  LNG = -2.898834;
 
 export class SimpleMap extends React.Component {
   static defaultProps = {
