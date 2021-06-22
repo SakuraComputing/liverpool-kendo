@@ -23,30 +23,35 @@ exports[`the login page should render correctly 1`] = `
       >
         "The way of the sword"
       </p>
-      <button
-        className="button button--with-icon"
-        onClick={[Function]}
-      >
-        <i
-          className="icon-prepend fa fa-google button-icon"
-        />
-        Login with Google
-      </button>
-      <button
-        className="button button--with-icon"
-        onClick={[Function]}
-        style={
-          Object {
-            "background": "#4267b2",
-          }
-        }
-      >
-        <i
-          className="icon-prepend fa fa-facebook-f button-icon"
-        />
-        Login with Facebook
-      </button>
+      <Covid />
     </div>
+  </div>
+  <div
+    className="footer-buttons"
+  >
+    <button
+      className="button button--with-icon"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-prepend fa fa-google button-icon"
+      />
+      Login with Google
+    </button>
+    <button
+      className="button button--with-icon"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#4267b2",
+        }
+      }
+    >
+      <i
+        className="icon-prepend fa fa-facebook-f button-icon"
+      />
+      Login with Facebook
+    </button>
   </div>
   <a
     className="footer-text"

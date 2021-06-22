@@ -44,5 +44,14 @@ Enzyme.configure({
 
 OpenClover set at 50%
 
+## Running Locally
 
+Crude at the moment but this is a simple project
 
+### FE Locally
+
+`yarn dev-server`
+
+### Node server
+
+`yarn start`

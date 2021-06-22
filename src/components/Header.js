@@ -3,34 +3,40 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import SideBar from './SideBar';
 
-import { startLogout } from "../actions/auth";
+import { startLogout } from '../actions/auth';
 
 export const Header = ({ dispatchStartLogoutProp, currentUser }) => (
-    <header className="header">
-        <div className="content-container">
-            <div className="header__content">
-                <Link className="header__title" to="/dashboard">
-                    <h1>Liverpool Kendo Club</h1>
-                </Link>
-                {/*<img src="/images/lkc_logo.jpg" alt="lkc_logo" className="header__icon" />*/}
-                <div className="header_logout-justify">
-                    <span className="header__displayName">{currentUser.displayName || currentUser.email}</span><br />
+  <header className="header">
+    <div className="content-container">
+      <div className="header__content">
+        <Link className="header__title" to="/dashboard">
+          <h1>Liverpool Kendo Club</h1>
+        </Link>
+        <div className="header_logout-justify">
+          <span className="header__displayName">
+            {currentUser.displayName || currentUser.email}
+          </span>
+          <br />
 
-                    <button className="button button--link" onClick={dispatchStartLogoutProp}> Logout</button>
-                </div>
-            </div>
+          <button
+            className="button button--link"
+            onClick={dispatchStartLogoutProp}
+          >
+            {' '}
+            Logout
+          </button>
         </div>
-        <SideBar />
-    </header>
+      </div>
+    </div>
+    <SideBar />
+  </header>
 );
 
 const mapStateToProps = (state) => ({
-    currentUser: state.auth.currentUser,
+  currentUser: state.auth.currentUser,
 });
 export const mapDispatchToProps = (dispatch) => ({
-    dispatchStartLogoutProp: () => dispatch(startLogout()),
+  dispatchStartLogoutProp: () => dispatch(startLogout()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);
-
-

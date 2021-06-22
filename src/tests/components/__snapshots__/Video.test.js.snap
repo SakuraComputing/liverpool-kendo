@@ -19,9 +19,9 @@ exports[`should render the Video page 1`] = `
   >
     <VideoItem
       id={2}
-      synopsis="Kendo shows your heart."
-      title="Mariko Yamamoto - Women's Kendo Champion"
-      youTubeUrl="https://www.youtube.com/watch?v=D2Vei2tMgp4"
+      synopsis="Kendo kata are vitally important as part of kendo study"
+      title="Kendo Kata"
+      youTubeUrl="https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM"
     />
   </div>
   <div
@@ -30,9 +30,9 @@ exports[`should render the Video page 1`] = `
   >
     <VideoItem
       id={3}
-      synopsis="The pass rate is around 0.6%"
-      title="Kendo 8th Dan challenge the toughest exam in Japan"
-      youTubeUrl="https://www.youtube.com/watch?v=My-XxYovtkY"
+      synopsis="Kendo is a lifelong study one in which experience is considered more important than physique"
+      title="Mochida Sensei 10th Dan"
+      youTubeUrl="https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s"
     />
   </div>
   <div
@@ -41,28 +41,6 @@ exports[`should render the Video page 1`] = `
   >
     <VideoItem
       id={4}
-      synopsis="Kendo kata are vitally important as part of kendo study"
-      title="Kendo Kata"
-      youTubeUrl="https://www.youtube.com/watch?v=9UfLrmDk8UE&list=PLaKZ0PAEUfwVTvUbLoUQh3pSxChpqOXpM"
-    />
-  </div>
-  <div
-    className="content-container"
-    key="5"
-  >
-    <VideoItem
-      id={5}
-      synopsis="Kendo is a lifelong study one in which experience is considered more important than physique"
-      title="Mochida Sensei 10th Dan"
-      youTubeUrl="https://www.youtube.com/watch?v=_XHSZ-sLG3I&t=6s"
-    />
-  </div>
-  <div
-    className="content-container"
-    key="6"
-  >
-    <VideoItem
-      id={6}
       synopsis="A demanding exercise in kendo that builds spirit and helps to extinguish the four sicknesses of kendo"
       title="Kakarigeiko"
       youTubeUrl="https://www.youtube.com/watch?v=v_mBWfdojIs"

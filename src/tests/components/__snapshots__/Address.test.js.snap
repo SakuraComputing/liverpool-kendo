@@ -8,28 +8,22 @@ exports[`should render the Address page 1`] = `
      Where To Find Us
   </h3>
   <div>
-    The Egg Dance Studio
+    Childwall Sports and Science Academy
   </div>
   <div>
-    IM Marsh Campus
+    Queens Drive
   </div>
   <div>
-    Mossley Hill Road
+    Childwall
   </div>
   <div>
-    Aigburth
-  </div>
-  <div>
-    Garston
-  </div>
-  <div>
-    L17 6BD
+    L15 6XZ
   </div>
   <h3>
     Practice Session Time
   </h3>
   <li>
-    Wednesdays 7.00pm to 9.30pm
+    Saturdays 2.00pm to 4.00pm
   </li>
   <li>
     Contact: 07515 546732
@@ -46,8 +40,8 @@ exports[`should render the Address page 1`] = `
     <SimpleMap
       center={
         Object {
-          "lat": 53.3707973,
-          "lng": -2.9188403,
+          "lat": 53.399373,
+          "lng": -2.898834,
         }
       }
       zoom={16}

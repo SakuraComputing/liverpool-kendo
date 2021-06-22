@@ -30,7 +30,8 @@ exports[`Header Page should render header correctly 1`] = `
           className="button button--link"
           onClick={[Function]}
         >
-           Logout
+           
+          Logout
         </button>
       </div>
     </div>
