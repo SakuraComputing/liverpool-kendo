@@ -2,7 +2,7 @@ import React from 'react';
 
 import GoogleMapReact from 'google-map-react';
 
-import { LAT, LNG } from '../config';
+import { LAT, LNG, ZOOM } from '../config';
 
 const DojoLocation = ({ text }) => (
   <div className="map-pointer map-pointer-pulse">{text}</div>
@@ -11,7 +11,7 @@ const DojoLocation = ({ text }) => (
 export class SimpleMap extends React.Component {
   static defaultProps = {
     center: { lat: LAT, lng: LNG },
-    zoom: 16,
+    zoom: ZOOM,
   };
 
   render() {
